@@ -1,0 +1,259 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.titre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titre a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.titre div{
+    margin: 1%
+}
+
+
+.titre .titreunion {
+    text-decoration-line: none;
+    color: black;
+    font-size: 30px;
+}
+
+.unionpictures {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-right: 4%;
+    
+
+}
+
+
+.unionpictures h3 {
+    font-size: 70px;
+}
+
+img {
+    width: 450px;
+}
+
+.premiereimage {
+    display: flex;
+    margin-top: 2%;
+}
+
+
+
+.texteetbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.buttoninsta {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.buttoninsta button {
+    justify-content: space-between;
+}
+
+
+.premiereimage img{
+    width: 450px;
+    border-radius: 100px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 3%;
+
+}
+
+.premiereimage img:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+}
+
+.textejap p{
+    text-align: center;
+    margin: 3%;
+    font-weight: bold;
+}
+
+.textefr p{
+text-align: center;
+    margin: 3%;
+}
+
+
+
+.deuxiemeimage {
+    margin-top: 4%;
+    margin-bottom: 10%;
+    display: flex;
+}
+
+.texteetunbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.unbuttoninstatawan {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+button{
+    border: none;
+    background-color: rgb(82, 82, 82);
+    border-radius: 10px;
+    width: 120px;
+    height: 22px;
+    color: white;
+    cursor: pointer;
+    margin-top: 2%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+button:hover{
+    transform: translateY(-8px);
+    background-color: rgba(0, 0, 0, 0.288);
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+.deuxiemeimage img{
+    width: 450px;
+    border-radius: 120px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 2%;
+   
+
+}
+
+.deuxiemeimage p{
+    margin: 3%;
+    text-align: center;
+}
+
+.deuxiemeimage img:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+}
+.textejap{
+    font-weight: bold;
+}
+
+
+.hautkpop{
+  position: relative; /* important pour que ::before reste dans main */
+  background-image: url("/image/girly3kpop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 160px;
+  z-index: 0; /* envoie le background derrière */
+}
+
+.hautkpop::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(236, 236, 236, 0.55); /* 50% d’opacité */
+  z-index: -1; 
+}
+
+.imagewinter1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagewinter1 p, .imagewinter1 h2{
+    width: 350px;
+    text-align: center;
+    justify-content: center;
+    margin: 0.5%;
+}
+
+
+.imagewinter1 img{
+    border-radius: 150px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 4%;
+}
+
+
+.imagewinter1 img:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+}
+
+
+.imagessecondaire img{
+    border-radius: 300px;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+     margin-top: 12%;
+}
+
+
+
+.imagewinter2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagewinter2 p, .imagewinter2 h2{
+    width: 350px;
+    text-align: center;
+    justify-content: center;
+    margin: 0.5%;
+}
+
+
+.imagewinter2 img{
+    border-radius: 150px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+     margin-top: 7%;
+}
+
+
+.imagewinter2 img:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+}
+
+
+.imagessecondaire2 img{
+    border-radius: 300px;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12%;
+
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

@@ -36,7 +36,6 @@
 
 .imageAsk{
     display: flex;
-    
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -56,6 +55,11 @@ button{
 button:hover{
     background-color: black;
     box-shadow: 0 8px 16px rgb(0, 0, 0);
+}
+
+button a{
+    text-decoration: none;
+    color: white;
 }
 
 .image1{
