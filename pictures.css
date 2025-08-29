@@ -26,7 +26,7 @@ html{
 .titre .titreunion {
     text-decoration-line: none;
     color: black;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .unionpictures {
@@ -168,7 +168,7 @@ button a{
   background-image: url("/image/girly3kpop.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 160px;
+  background-size: 300px;
   z-index: 0; /* envoie le background derrière */
 }
 
@@ -349,4 +349,8 @@ button a{
     flex-direction: row;
     justify-content: space-around;
     margin-top: 10%;
+}
+
+.jap{
+    margin-bottom: 5%;
 }
