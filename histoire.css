@@ -1,0 +1,100 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.titre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titre a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.titre div{
+    margin: 1%
+}
+
+
+.titre .titreunion {
+    text-decoration-line: none;
+    color: black;
+    font-size: 30px;
+}
+
+.unionpictures {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-right: 4%;
+    
+
+}
+
+
+.unionpictures h3 {
+    font-size: 70px;
+}
+
+img {
+    width: 450px;
+}
+
+.hautkpop{
+  position: relative; /* important pour que ::before reste dans main */
+  background-image: url("/image/tomie.jpg");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0; /* envoie le background derrière */
+}
+
+.hautkpop::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(236, 236, 236, 0.55); /* 50% d’opacité */
+  z-index: -1; 
+}
+
+.imageetnomfrjap{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+.texteetppetnom{
+    display: flex;
+
+}
+
+.textejapetfr{
+    margin: 3%;
+    font-size: 18px;
+    width: 70%;
+}
+
+.textejap{
+    font-weight: bold;
+    margin-top: 10%;
+    line-height: 26px;
+
+}
+
+.textefr{
+    line-height: 26px;
+}
+
+.imageetnomfrjap img{
+    width: 200px;
+    border-radius: 150px;
+    text-align: center;
+}
+
+.prenomjpfr{
+    text-align: center;
+    margin-top: 2%;
+}
