@@ -84,3 +84,32 @@ button a{
     text-decoration: none;
     color: white;
 }
+
+.textefrancaisjaponais{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 2%;
+    line-height: 33px;
+}
+.textejp{
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.textefr{
+    font-size: 23px;
+}
+
+img{
+    width: 200px;
+    border-radius: 80px;
+}
+
+.touslesinstas{
+    display: flex;
+    margin: 2%;
+    margin-top: 5%;
+}
