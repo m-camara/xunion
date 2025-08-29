@@ -354,3 +354,30 @@ button a{
 .jap{
     margin-bottom: 5%;
 }
+
+
+#backToTop {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  display: none;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  z-index: 1000;
+  transition: opacity 0.3s;
+  height: 50px;
+  width: 50px;
+}
+#backToTop:hover {
+  background-color: #555;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}

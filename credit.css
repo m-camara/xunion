@@ -106,10 +106,77 @@ button a{
 img{
     width: 200px;
     border-radius: 80px;
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
 }
 
 .touslesinstas{
     display: flex;
     margin: 2%;
     margin-top: 5%;
+    justify-content: space-evenly;
+}
+
+.semary{
+    display: flex;
+    flex-direction: column;
+}
+.buttonsema{
+    display: flex;
+    margin-top: 4%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zhang{
+    display: flex;
+    flex-direction: column;
+}
+
+.tawan{
+    display: flex;
+    flex-direction: column;
+}
+
+.sanlimo{
+    display: flex;
+    flex-direction: column;
+}
+
+.ariadnepinterest{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.buttonz{
+    display: flex;
+    margin-top: 4%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttont{
+    display: flex;
+    margin-top: 4%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 4%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttona{
+   display: flex;
+    margin-top: 4%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
 }
