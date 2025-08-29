@@ -100,10 +100,33 @@ img {
 }
 
 .jap{
-    margin-bottom: 4%;
+    margin-bottom: 8%;
 }
-
 .copyright{
     display: flex;
     justify-content: center;
+}
+.reseau{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reseau img{
+    width: 80px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.github img{
+    width: 63px;
+    margin-top: 9px;
+}
+
+.github img:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+}
+
+.linkedin img:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
 }
