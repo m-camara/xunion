@@ -2,7 +2,7 @@ const btn = document.getElementById("backToTop");
 
   // Afficher le bouton après un certain scroll
   window.onscroll = function () {
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
       btn.style.display = "block";
     } else {
       btn.style.display = "none";

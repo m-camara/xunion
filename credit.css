@@ -181,6 +181,28 @@ img{
     justify-content: center;
 }
 
+#backToTop {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  display: none;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  z-index: 1000;
+  transition: opacity 0.3s;
+  height: 50px;
+  width: 50px;
+}
+#backToTop:hover {
+  background-color: #555;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .titre .titreunion {
         font-size: 28px;
@@ -215,6 +237,13 @@ img{
     img {
         width: 180px;
         height: 180px;
+    }
+    #backToTop {
+        bottom: 30px;
+        right: 30px;
+        height: 45px;
+        width: 45px;
+        font-size: 18px;
     }
 }
 
@@ -299,6 +328,21 @@ img{
 
     .ariadnepinterest img{
         margin-left: 22%;
+    }
+
+    #backToTop {
+        bottom: 30px;
+        right: 30px;
+        height: 45px;
+        width: 45px;
+        font-size: 18px;
+    }
+    #backToTop {
+        bottom: 30px;
+        right: 30px;
+        height: 45px;
+        width: 45px;
+        font-size: 18px;
     }
 }
 
@@ -409,6 +453,14 @@ img{
         font-size: 12px;
         margin-top: 30px;
     }
+
+    #backToTop {
+        bottom: 30px;
+        right: 30px;
+        height: 45px;
+        width: 45px;
+        font-size: 18px;
+    }
 }
 
 /* Très petits écrans (jusqu'à 320px) */
@@ -471,6 +523,13 @@ img{
     
     .copyright {
         margin-top: 20px;
+    }
+    #backToTop {
+        bottom: 30px;
+        right: 30px;
+        height: 45px;
+        width: 45px;
+        font-size: 18px;
     }
 }
 

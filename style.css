@@ -105,6 +105,28 @@ button a{
     font-weight: bold;
 }
 
+#backToTop {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  display: none;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  z-index: 1000;
+  transition: opacity 0.3s;
+  height: 50px;
+  width: 50px;
+}
+#backToTop:hover {
+  background-color: #555;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .titre .titreunion {
         font-size: 28px;
@@ -160,12 +182,35 @@ button a{
         margin-top: 3%;
     }
 }
+#backToTop {
+        bottom: 30px;
+        right: 30px;
+        height: 45px;
+        width: 45px;
+        font-size: 18px;
+    }
 
 /* Smartphones portrait (jusqu'à 480px) */
 @media screen and (max-width: 480px) {
+    .titre {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        gap: 15px;
+    }
+    
     .titre .titreunion {
         font-size: 22px;
-        padding: 10px;
+    }
+    
+    .unionpictures {
+        margin: 0 1%;
+        padding: 15px 0;
+    }
+    
+    .unionpictures h3 {
+        font-size: 35px;
+        margin-bottom: 20px;
     }
     
     .imageAsk img {
@@ -202,6 +247,13 @@ button a{
         line-height: 1.5;
     }
 }
+#backToTop {
+        bottom: 30px;
+        right: 30px;
+        height: 45px;
+        width: 45px;
+        font-size: 18px;
+    }
 
 /* Très petits écrans (jusqu'à 320px) */
 @media screen and (max-width: 320px) {
